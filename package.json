@@ -1,0 +1,28 @@
+{
+  "name": "tempserv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel src -d build --source-maps && node build/TempServ.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.84.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "lodash": "^4.17.11",
+    "node-hid": "^0.7.3",
+    "temper-usb": "^0.1.0",
+    "usb": "^1.3.3"
+  }
+}

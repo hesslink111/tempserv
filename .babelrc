@@ -1,0 +1,11 @@
+{
+  "presets": [
+    "env",
+    "flow"
+  ],
+  "plugins": [
+    "transform-class-properties",
+    "transform-async-to-generator",
+    "transform-runtime"
+  ]
+}
